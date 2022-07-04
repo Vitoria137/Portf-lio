@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;400;500;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    border: none;
+    font-weight: 300;
+}
+
+:root{
+    --corpo: #402E5F;
+    --cabecalho: #663E86;
+    --link-ativo: #D283D9;
+    --texto: #ffffff;
+    --botao: #D283D9;
+    --habilidade-card: #340856;
+}
+
+body{
+    font-family: 'Raleway', sans-serif;
+    color: var(--texto);
+    background: var(--corpo);
+    overflow-x: hidden;
+}
+
+.a-btn{
+    background-color: var(--botao);
+    color: var(--texto);
+    border-radius: 7px;
+    cursor: pointer;
+    transition: .2s background ease-in-out;
+}
+
+.a-btn:hover{
+    background-color: var(--habilidade-card);
+}
+
+.menu a{
+    color: var(--texto);
+    padding: 5px;
+    transition: .1s all ease-in-out;
+}
+
+.menu a:hover{
+    color: var(--link-ativo);
+    border-bottom: 1px solid var(--link-ativo);
+}
+
+.titulo{
+    font-size: 30px;
+    font-weight: 500;
+    color: var(--botao);
+    padding: 5px;
+    border-bottom: 1px solid var(--botao);
+}
+
+.cabecalho-fixo{
+    padding: 10px;
+    background-color: var(--cabecalho);
+}
